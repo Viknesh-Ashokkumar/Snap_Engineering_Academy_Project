@@ -1,31 +1,41 @@
-<!doctype html>
-<html>
-  <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
-    <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>College Footwear Catalog</title>
 
-  <body>
-    <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
+  <!-- Space Grotesk font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+  <!-- Lacquer font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- top left title -->
+    <header class="site-header">
+      <h1 class="site-title">College Footwear Catalog</h1>
     </header>
-    <div id="card-container"></div>
-    <div class="card" style="display: none">
-      <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
+
+    <!-- center content -->
+    <main class="hero">
+      <p class="hero-subtitle">What are you shopping for?</p>
+      <div class="gender-buttons">
+        <a href="men.html" class="gender-btn">Men</a>
+        <a href="women.html" class="gender-btn">Women</a>
       </div>
-    </div>
-    <div class="footer">
-      <button onclick="quoteAlert()">Get A Quote!</button>
-      <button onclick="removeLastCard()">Remove A Card!</button>
-    </div>
-  </body>
+    </main>
+
+    <!-- blue diagonal triangle -->
+    <div class="blue-triangle"></div>
+
+  </div>
+</body>
 </html>
